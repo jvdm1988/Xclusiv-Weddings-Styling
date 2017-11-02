@@ -1,10 +1,8 @@
-/* Additional Styling */
-
-.link-jessica {
-	text-decoration: none;
+/* ------- DEFAULT STYLING ------ */
+html {
+	font-size: 16px;
 }
 
-.link-jessica:hover {
-	text-decoration: none;
-	color: #74db67;
+body {
+	font-family: 'Ubuntu', Arial, Verdana, sans-serif;
 }
