@@ -1,0 +1,10 @@
+/* Additional Styling */
+
+.link-jessica {
+	text-decoration: none;
+}
+
+.link-jessica:hover {
+	text-decoration: none;
+	color: #74db67;
+}
