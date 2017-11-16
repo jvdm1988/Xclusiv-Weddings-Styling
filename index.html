@@ -18,8 +18,7 @@
 <script src="https://use.fontawesome.com/94cf59798c.js"></script>
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-</head>
-
+<link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
 <body>
 
 <!-- Header Section -->
@@ -31,12 +30,22 @@
       </a>
         <nav class="navigation" role="navigation">
           <ul class="primary-nav">
-            <li><a href="#header-slider">Home</a></li>
-            <li><a href="#services">Trouwen</a></li>
+            <li>
+              <div class="dropdown">
+                <a href="diensten.html">
+                  <button class="dropbtn">DIENSTEN <span class="caret"></span></button>
+                </a>
+                <div class="dropdown-content">
+                  <a href="weddingplanner.html">Weddingplanner</a>
+                  <a href="trouwadvies.html">Trouwadvies</a>
+                  <a href="styling.html">Styling</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#testimonials">Xclusiv</a></li>
             <li><a href="#portfolio">Impressie</a></li>
-            <li><a href="#testimonials">Over Xclusiv</a></li>
             <li><a href="trouwblog.html">Trouwblog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a> </div>
@@ -44,49 +53,56 @@
 <!-- Navigation Section -->
     </section>
 <!-- Header Section -->
+
 <!-- Slider Section -->
-
-
-
-    <section id="header-slider" class="section">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active"> <img src="images/slider/slid1.jpg" alt="Xlusiv">
-            <div class="carousel-caption">
-              <img src="images/xclusiv.beige.jpg">
-            </div>
+    <section class="section" id="banner-section">
+      <div class="row" id="home-banner">
+        <div class="col-sm-12">
+          <div class="banner">
+            <img src="images/xclusiv.beige.jpg">
+            <p>Weddings & Styling</p>
           </div>
         </div>
-        <!-- Controls -->
+      </div>
     </section>
 
-<!-- Slider Section -->
 <!-- Service Section -->
     <section id="services" class="section services">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
+          <div class="col-md-9 col-sm-12">
             <div class="services-content">
-              <h4>Weddings &amp; Styling</h4>
-              <p>Bijvoorbeeld wat informatie over trouwen (kan ook op aparte pagina)</p>
+              <h4>DIENSTEN</h4>
+
+              <hr>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <h6>Weddingplanner</h6>
+                  <p>Xclusiv verzekert je van de dag van je dromen om altijd te herinneren. Alle voorbereiding wordt speciaal voor jullie uit handen genomen voor optimaal huwelijksplezier.</p>
+                </div>
+                <div class="col-md-4">
+                  <h6>Trouwadvies</h6>
+                  <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                </div>
+                <div class="col-md-4">
+                  <h6>Styling</h6>
+                  <p>Een bruiloft die tot in de puntjes klopt, is er een om nog lang over na te praten. Xclusiv weet precies hoe een huwelijk in stijl georganiseerd kan worden.</p>
+                </div>
+              </div>
+
+              <p><a href="diensten.html" class="btn">Lees meer over Diensten &#9658;</a></p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="services-content">
-              <h5>Gespecialiseerd in (optioneel)</h5>
-              <ul>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Content</a></li>
-              </ul>
+          <div class="col-md-3 col-sm-12">
+            <div class="introduction-section">
+              <div class="services-content" id="introduction">
+                <img src="images/esther.jpg" alt="Esther">
+                <h5>Esther Heemskerk</h5>
+                <p>Gediplomeerd Weddingplanner</p>
+                <hr>
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+              </div>
             </div>
           </div>
         </div>

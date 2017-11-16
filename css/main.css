@@ -102,10 +102,11 @@ ul li {
 	z-index: 999;
 	margin-left: 3%;
 	margin-right: 3%;
+	background-color: #fff;
 }
 #header .header-content {
 	margin: 0 auto;
-	padding: 40px 0;
+	padding: 30px 0 10px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -121,6 +122,7 @@ ul li {
 }
 #header.fixed {
 	background-color: #fff;
+	border-bottom: 1px solid #ededed;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -144,7 +146,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #000;
+	color: #676b70;
 	font-size: 13px;
 	font-weight: 300;
 	margin-left: 40px;
@@ -154,6 +156,51 @@ ul li {
 .navigation a:hover, .navigation a.active {
 	color: #bcbcbc;
 }
+
+/* -------------- NAV DROPDOWN --------- */
+/* Dropdown Button */
+.dropbtn {
+	background-color: #fff;
+	border: none;
+	color: #676b70;
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.dropbtn:hover, .dropbtn.active .dropbtn:focus {
+	color: #bcbcbc;
+	border: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+		background-color: #fff;
+		padding: 10px;
+    display: none;
+    position: absolute;
+		padding-left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #676b70;
+		margin: 0;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+		font-size: 10px !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* -------------- END NAV DROPDOWN --------- */
+
 .nav-toggle {
 	display: none;
 	height: 44px;
@@ -293,52 +340,43 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Header Slider
 -------------------------------------------------------------------------------*/
+#banner-section {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
-.carousel {
-	width: 94%;
+#home-banner {
+	background-image: url("../images/home-banner.jpg");
+	opacity: 0.9;
+	background-size: cover;
 	height: 500px;
+	width: auto;
+}
+
+.banner {
+	width: 94%;
+	height: 400px;
 	margin: auto;
 }
-.item, .active, .carousel-inner {
-	height: 100%;
+
+.banner img {
+	margin-top: 55px;
+	margin-left: 35px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
 }
-.carousel-caption {
-	bottom: 40%;
-	color: #fff;
-	left: 15%;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	position: absolute;
-	right: 15%;
-	text-align: center;
-	z-index: 10;
-}
-.carousel-caption h3 {
-	font-family: "Open Sans", sans-serif;
-	color: #2d3033;
+
+.banner p {
+	margin-top: -18px;
+	margin-left: 215px;
+	color: #ddcab6;
 	text-shadow: none;
-	font-size: 31px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-}
-.carousel-caption p {
-	font-family: "Open Sans", sans-serif;
-	color: #6c7279;
-	text-shadow: none;
-	font-size: 13px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 100;
 	letter-spacing: 2px;
-}
-.carousel-control.left {
-	background: none;
-}
-.carousel-control.right {
-	background: none;
-}
-.carousel-control {
-	opacity: 1;
-	text-shadow: none;
 }
 /* ------------------------------------------------------------------------------
 	 Services
@@ -348,18 +386,7 @@ ul li {
 	margin: auto;
 	background-color: #f9f7f8;
 }
-.services h4 {
-	font-size: 33px;
-	line-height: 33px;
-	letter-spacing: 2px;
-	font-weight: 300;
-}
-.services h5 {
-	font-size: 21px;
-	font-weight: 300;
-	margin-bottom: 10%;
-	text-transform: none;
-}
+
 .services p {
 	color: #6c7279;
 	font-size: 13px;
@@ -367,15 +394,67 @@ ul li {
 	margin-top: 7%;
 }
 .services-content {
-	margin: 50px;
+	margin: 30px 50px;
 }
-.services-content li a {
-	color: #6c7279;
-	line-height: 30px;
+
+.services-content h4,
+.services-content h6,
+.services-content p {
+	text-align: center;
 }
-.services-content li a:hover {
-	color: #000;
+
+.services-content h4 {
+	margin-top: -40px;
 }
+
+.services-content h6 {
+	font-family: 'Ruthie', 'Ubuntu', Arial, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	color: #ddcab6;
+}
+
+.services-content .btn:hover,
+.services-content .btn:active,
+.services-content .btn:focus {
+	background-color: #b5a594;
+}
+
+.services-content .btn {
+	float: left;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background: #ddcab6;
+	margin-top: 0;
+}
+
+.introduction-section {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 3px 3px 20px #e0e0e0;
+}
+
+#introduction {
+	text-align: center;
+	margin: 0;
+	padding: 20px 5px;
+}
+
+#introduction p {
+	font-weight: lighter;
+	font-size: 10px;
+}
+
+.services-content img {
+	border-radius: 50%;
+	width: 100%;
+	max-width: 120px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
@@ -520,9 +599,7 @@ ul li {
 	width: 94%;
 	margin: auto;
 }
-.work-detail-margin {
-	margin-top: 7%;
-}
+
 .detail-image img {
 	width: 100%;
 }
@@ -560,4 +637,99 @@ h3.heading-section:before {
   width: 30px;
   height: 2px;
   background: #79c34f;
+}
+
+
+/* --------- Additional Styling ------- */
+
+/* ----- DIENSTEN.HTML ------*/
+.diensten-page #header {
+	background-color: #fff;
+}
+
+.diensten,
+.contact {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#diensten-banner {
+	background-image: url("../images/diensten-3.jpg");
+	opacity: 0.8;
+	background-size: cover;
+	height: 500px;
+	width: auto;
+}
+
+#diensten-title h1 {
+	font-family: 'Ruthie', 'Ubuntu', Arial, sans-serif;
+	font-style: italic;
+	color: #ddcab6;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.diensten-content-box,
+.contact-content-box {
+	background-color: #f9f7f7;
+	margin: 50px 30px;
+	box-shadow: 1px 1px 40px #e0e0e0;
+	padding: 20px;
+}
+
+#diensten-content,
+#contact-content {
+	margin: 30px 0;
+}
+
+#diensten-content h2,
+#contact-content h2 {
+	font-size: 24px;
+}
+
+#diensten-content .btn {
+	width: 100%;
+	max-width: 250px;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background: #ddcab6;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#diensten-content .btn:hover,
+#diensten-content .btn:active,
+#diensten-content .btn:focus {
+	background-color: #c6b29d;
+}
+
+/* -------- STYLING.HTML -------- */
+#styling-title h1,
+#contact-title h1 {
+	font-family: 'Ruthie', 'Ubuntu', Arial, sans-serif;
+	font-style: italic;
+	color: #ddcab6;
+	padding-top: 100px;
+	text-align: left;
+}
+
+#work-detail {
+	background-color: #f9f7f7;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.thumbnail {
+	box-shadow: 1px 1px 40px #e0e0e0;
+}
+
+/* ------- CONTACT.HTML ---------- */
+#contact-banner {
+	background-image: url("../images/contact-banner-1.jpg");
+	opacity: 0.8;
+	background-size: cover;
+	height: 500px;
+	width: auto;
 }
