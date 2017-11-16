@@ -350,7 +350,7 @@ ul li {
 	background-image: url("../images/home-banner.jpg");
 	opacity: 0.9;
 	background-size: cover;
-	height: 500px;
+	height: 620px;
 	width: auto;
 }
 
@@ -361,16 +361,16 @@ ul li {
 }
 
 .banner img {
-	margin-top: 55px;
-	margin-left: 35px;
+	margin-top: 45px;
+	margin-left: 55px;
 	width: 100%;
-	max-width: 400px;
+	max-width: 350px;
 	height: auto;
 }
 
 .banner p {
-	margin-top: -18px;
-	margin-left: 215px;
+	margin-top: -15px;
+	margin-left: 225px;
 	color: #ddcab6;
 	text-shadow: none;
 	font-size: 20px;
