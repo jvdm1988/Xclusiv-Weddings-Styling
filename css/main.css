@@ -350,8 +350,8 @@ ul li {
 	background-image: url("../images/home-banner.jpg");
 	opacity: 0.9;
 	background-size: cover;
-	height: 620px;
-	width: auto;
+	height: auto;
+	width: 100%;
 }
 
 .banner {
@@ -361,11 +361,12 @@ ul li {
 }
 
 .banner img {
-	margin-top: 45px;
-	margin-left: 55px;
+	margin-top: 5%;
+	margin-left: 120px;
 	width: 100%;
-	max-width: 350px;
+	max-width: 250px;
 	height: auto;
+	background-color: #fff;
 }
 
 .banner p {
@@ -521,7 +522,7 @@ ul li {
 .testimonials {
 	width: 94%;
 	margin: auto;
-	background-color: #333;
+	background-color: #ddcab6;
 	position: relative;
 	text-align: center;
 }

@@ -35,7 +35,6 @@
           <nav class="navigation" role="navigation">
             <ul class="primary-nav">
               <li>
-                <a href="index.html">Home</a>
                 <div class="dropdown">
                   <a href="diensten.html">
                     <button class="dropbtn">DIENSTEN <span class="caret"></span></button>
@@ -51,6 +50,7 @@
               <li><a href="#portfolio">Impressie</a></li>
               <li><a href="trouwblog.html">Trouwblog</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.html">Home</a></li>
             </ul>
           </nav>
           <a href="#" class="nav-toggle">Menu<span></span></a> </div>
@@ -74,11 +74,12 @@
     <div class="row">
       <div class="col-sm-12 col-md-10 col-md-offset-1 work-detail-margin detail-image">
         <div class="container">
-          <form id="my_form" onsubmit="submitForm(); return false;">
-            <p><input id="n" placeholder="Name" required></p>
-            <p><input id="e" placeholder="Email Address" type="email" required></p>
-            <textarea id="m" placeholder="write your message here" rows="10" required></textarea>
-            <p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p>
+          <form id="my_form" action="mail.php" method="POST" onsubmit="submitForm(); return false;">
+            <p><input id="n" placeholder="Naam" required></p>
+            <p><input id="e" placeholder="Email" type="email" required></p>
+            <p><input id="p" placeholder="Telefoon" type="text" required></p>
+            <textarea id="m" placeholder="Bericht" rows="10" required></textarea>
+            <p><input id="mybtn" type="submit" value="Verzend"> <span id="status"></span></p>
           </form>
         </div>
       </div>
@@ -117,12 +118,12 @@
 <!-- footer section -->
 
 <!-- JS FILES -->
+<script src="js/contact-form.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/retina.min.js"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/main.js"></script>
-<script src="js/contact-form.js"></script>
 </body>
 </html>
