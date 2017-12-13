@@ -128,9 +128,7 @@ ul li {
 	border-bottom: 0;
 	padding: 25px 0;
 }
-#header.fixed .nav-toggle {
-	top: 18px;
-}
+
 .navigation.open {
 	opacity: 0.9;
 	visibility: visible;
@@ -349,7 +347,7 @@ ul li {
 }
 
 .home-banner {
-	box-shadow: 0px 10px 20px #e0e0e0;
+	box-shadow: 0px 5px 20px #e0e0e0;
 	background-size: cover;
 	width: 100%;
 	height: auto;
@@ -650,12 +648,12 @@ h3.heading-section:before {
 	margin-right: auto;
 }
 
-#diensten-banner {
-	background-image: url("../images/diensten-3.jpg");
+.diensten-banner {
 	opacity: 0.8;
 	background-size: cover;
-	height: 500px;
-	width: auto;
+	width: 100%;
+	height: auto;
+	max-height: 570px;
 }
 
 #diensten-title h1 {
