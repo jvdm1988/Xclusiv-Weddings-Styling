@@ -18,8 +18,7 @@ p, h1, h2, h3, h4, h5, h6 {
 	height: auto;
 }
 
-/* ---------- CAROUSEL ----------*/
-.carousel-inner img {
-	margin-left: -175px;
-	margin-top: 150px;
+/* ---------- DIENSTEN BTN ----------*/
+.meer-diensten-btn {
+	margin-bottom: 30px !important;
 }
