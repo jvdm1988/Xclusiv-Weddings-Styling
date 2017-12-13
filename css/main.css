@@ -344,41 +344,33 @@ ul li {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 #home-banner {
-	background-image: url("../images/home-banner.jpg");
-	opacity: 0.9;
+	background-image: url("../images/banner-test.jpg");
+	box-shadow: 10px 10px 20px #e0e0e0;
+	opacity: 0.8;
 	background-size: cover;
+	margin-top: -100px;
 	height: auto;
 	width: 100%;
 }
 
 .banner {
 	width: 94%;
-	height: 400px;
+	height: 600px;
 	margin: auto;
 }
 
 .banner img {
-	margin-top: 5%;
-	margin-left: 120px;
+	margin-top: 440px;
 	width: 100%;
-	max-width: 250px;
+	max-width: 500px;
 	height: auto;
-	background-color: #fff;
 }
 
-.banner p {
-	margin-top: -15px;
-	margin-left: 225px;
-	color: #ddcab6;
-	text-shadow: none;
-	font-size: 20px;
-	font-weight: lighter;
-	font-weight: 100;
-	letter-spacing: 2px;
-}
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
@@ -422,6 +414,8 @@ ul li {
 }
 
 .services-content .btn {
+	width: 100%;
+	max-width: 250px;
 	float: left;
 	padding: 10px 20px;
 	border-radius: 3px;
@@ -591,6 +585,10 @@ ul li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+.footer .btw-text {
+	margin-bottom: 0;
 }
 /* ------------------------------------------------------------------------------
 	 Work Detial
