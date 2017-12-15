@@ -19,6 +19,18 @@ p, h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0px;
 }
 
+/*----------- INTRO-SECTION ----------*/
+#intro-section{
+	background-color: #f9f7f8;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+#intro-section h4,
+#intro-section p {
+	color: #6c7279;
+}
+
 /* ---------- DIENSTEN BTN ----------*/
 .meer-diensten-btn {
 	margin-left: 0;
@@ -30,4 +42,15 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ---------- LOGO TEST ----------*/
 .logo-test {
 	width: 50px !important;
+}
+
+/* ----------- CONTACT -----------*/
+#contact-title h1 {
+	padding-top: 0 !important;
+}
+
+.form-alert,
+.contact-form-php input,
+.contact-form-php textarea {
+	width: 80%;
 }
