@@ -20,7 +20,7 @@
 				$msgClass = 'alert-danger';
 			} else {
 				// Passed
-				$toEmail = 'support@traversymedia.com';
+				$toEmail = 'jvdm1988@hotmail.com';
 				$subject = 'Contact Request From '.$name;
 				$body = '<h2>Contact Request</h2>
 					<h4>Name</h4><p>'.$name.'</p>
@@ -37,7 +37,7 @@
 
 				if(mail($toEmail, $subject, $body, $headers)){
 					// Email Sent
-					$msg = 'Your email has been sent';
+					$msg = 'Bericht verzonden. Bedankt voor de interesse in Xclusiv Weddings & Styling';
 					$msgClass = 'alert-success';
 				} else {
 					// Failed
@@ -115,12 +115,31 @@
       </section>
   <!-- Header Section -->
 
+	<section class="section" id="banner-section">
+		<div class="row" id="contact">
+			<div class="col-sm-12">
+				<img class="home-banner" src="./images/test123.png" alt="">
+			</div>
+		</div>
+	</section>
+
   <section id="contact-title">
     <div class="row">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
         <h1>Contact</h1>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Enthousiast geworden?</p>
+				<p>We zijn benieuwd naar jullie dromen en ideeën voor jullie huwelijk. Bellen, mailen en appen mag altijd. Dan maken we snel een afspraak voor een vrijblijvend kennismakingsgesprek.</p>
+				<p>Xclusiv Weddings &amp; Styling <p>
+				<p>
+					<b>Contact persoon:</b> Esther Heemskerk <br>
+					<b>Mobiel</b> +316&nbsp;25201881 <br>
+					<b>E&#8209;mail</b> info@xclusivweddings.nl
+				</p>
+
+				<p>KvK te Rotterdam 68778716</p>
+
+				<p>Benieuwd wat wij als Weddingplanner en styliste voor jullie kunnen betekenen of heb je een andere vraag? Vul dan het onderstaande contact formulier in. Wij nemen zo spoedig mogelijk contact met jullie op.</p>
       </div>
     </div>
 
@@ -131,11 +150,11 @@
       <div class="col-sm-12 col-md-10 col-md-offset-1 work-detail-margin detail-image">
         <div class="container">
 					<?php if($msg != ''): ?>
-		    		<div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
+		    		<div class="alert form-alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
 		    	<?php endif; ?>
-					<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+					<form class="contact-form-php" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 			      <div class="form-group">
-				      <label>Name</label>
+				      <label>Naam</label>
 				      <input type="text" name="name" class="form-control" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
 			      </div>
 			      <div class="form-group">
@@ -143,11 +162,11 @@
 			      	<input type="text" name="email" class="form-control" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
 			      </div>
 			      <div class="form-group">
-			      	<label>Message</label>
+			      	<label>Bericht</label>
 			      	<textarea name="message" class="form-control"><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
 			      </div>
 			      <br>
-			      <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+			      <button type="submit" name="submit" class="btn btn-primary">Verzenden</button>
 		      </form>
         </div>
       </div>
