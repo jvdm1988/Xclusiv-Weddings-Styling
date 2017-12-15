@@ -346,33 +346,12 @@ ul li {
 	padding-left: 0;
 }
 
-#intro-section {
-	width: 94%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.home-banner {
+#home-banner img {
 	box-shadow: 0px 5px 20px #e0e0e0;
 	background-size: cover;
 	width: 100%;
 	height: auto;
-	margin-top: -150px;
-}
-
-.banner {
-	width: 94%;
-	height: 600px;
-	margin: auto;
-}
-
-.banner img {
-	margin-top: 440px;
-	width: 100%;
-	max-width: 500px;
-	height: auto;
+	margin-top: 50px;
 }
 
 /* ------------------------------------------------------------------------------
