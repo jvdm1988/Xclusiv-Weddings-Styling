@@ -352,21 +352,22 @@ ul li {
 	background-size: cover;
 	width: 100%;
 	height: 620px;
-	margin-top: 50px;
+	margin: auto;
+	margin-top: 40px;
+
 }
 
 .banner-text {
-	background-color: #fff;
-	padding: 30px;
-	margin-left: 70px;
-	margin-top: 60px;
-	opacity: 0.9;
+	background-color: #f9f7f8;
+	padding: 40px;
+	margin-left: 25px;
+	margin-top: 55px;
 }
 
-.banner-text img {
-	width: 330px;
+.banner-logo {
+	width: 370px;
 	height: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .banner-text h4,
@@ -374,52 +375,24 @@ ul li {
 	color: #6c7279;
 }
 
+.banner-text h4 {
+	margin-bottom: 20px;
+}
+
 /* ------------------------------------------------------------------------------
-	 Services
+	 Services & Introduction
 -------------------------------------------------------------------------------*/
-.services {
+.services,
+.introduction {
 	width: 94%;
 	margin: auto;
 	background-color: #f9f7f8;
 }
 
-.services p {
+.introduction p {
 	color: #6c7279;
 	font-size: 13px;
 	font-weight: 400;
-}
-.services-content {
-	margin: 30px 50px;
-}
-
-.services-content h3 {
-	margin-bottom: 20px;
-}
-
-.services-content h4 {
-	margin-top: -40px;
-}
-
-.services-content h6 {
-	font-family: 'Ruthie', 'Ubuntu', Arial, sans-serif;
-	font-style: italic;
-	font-size: 40px;
-	color: #ddcab6;
-}
-
-.services-content .btn:hover,
-.services-content .btn:active,
-.services-content .btn:focus {
-	background-color: #b5a594;
-}
-
-.services-content .btn {
-	max-width: 250px;
-	float: left;
-	padding: 10px 20px;
-	border-radius: 3px;
-	background: #ddcab6;
-	margin-top: 0;
 }
 
 .introduction-section {
@@ -428,18 +401,25 @@ ul li {
 	box-shadow: 3px 3px 20px #e0e0e0;
 }
 
-#introduction {
+.foto-esther {
+	border-right: 1px solid #c6c6c6;
+}
+
+.foto-esther {
 	text-align: center;
+}
+
+#introduction {
 	margin: 0;
 	padding: 20px 5px;
 }
 
 #introduction p {
 	font-weight: lighter;
-	font-size: 10px;
+	font-size: 12px;
 }
 
-.services-content img {
+.introduction img {
 	border-radius: 50%;
 	width: 100%;
 	max-width: 200px;
@@ -526,7 +506,7 @@ ul li {
 }
 .testimonials h1 {
 	color: #676b70;;
-	font: 19px "Open Sans", sans-serif;
+	font: 17px "Open Sans", sans-serif;
 	font-weight: 300;
 	letter-spacing: 1px;
 }
