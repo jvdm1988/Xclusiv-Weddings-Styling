@@ -354,7 +354,6 @@ ul li {
 	height: 620px;
 	margin: auto;
 	margin-top: 40px;
-
 }
 
 .banner-text {
@@ -362,12 +361,19 @@ ul li {
 	padding: 40px;
 	margin-left: 25px;
 	margin-top: 55px;
+	opacity: 0.9;
 }
 
 .banner-logo {
 	width: 370px;
 	height: auto;
 	margin-bottom: 10px;
+}
+
+.test-text {
+	padding-left: 20px;
+	border-left: 10px solid #ddcab6;
+	margin-left: 30px;
 }
 
 .banner-text h4,
@@ -380,14 +386,22 @@ ul li {
 }
 
 /* ------------------------------------------------------------------------------
-	 Services & Introduction
+	 Services
 -------------------------------------------------------------------------------*/
-.services,
-.introduction {
+.services {
 	width: 94%;
 	margin: auto;
 	background-color: #f9f7f8;
 }
+
+.services-content {
+	border-left: 10px solid #ddcab6;
+	padding-left: 30px;
+}
+
+/* ------------------------------------------------------------------------------
+	 Introduction
+-------------------------------------------------------------------------------*/
 
 .introduction p {
 	color: #6c7279;
@@ -402,7 +416,6 @@ ul li {
 }
 
 .foto-esther {
-	border-right: 1px solid #c6c6c6;
 }
 
 .foto-esther {
@@ -410,7 +423,9 @@ ul li {
 }
 
 #introduction {
-	margin: 0;
+	background-color: #f9f7f8;
+	width: 94%;
+	margin: auto;
 	padding: 20px 5px;
 }
 
@@ -429,6 +444,10 @@ ul li {
 	margin-left: auto;
 }
 
+.intro-esther {
+	border-left: 10px solid #ddcab6;
+	padding-left: 30px;
+}
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
@@ -696,7 +715,7 @@ h3.heading-section:before {
 #work-detail {
 	background-color: #f9f7f7;
 	margin-bottom: 30px;
-	margin-top: 30px;
+	padding-top: 110px;
 }
 
 .thumbnail {

@@ -62,6 +62,11 @@
 .testimonials p {
 	margin-bottom: 20px !important;
 }
+
+.intro-esther {
+	border-left: none;
+	text-align: center;
+}
 }
 @media screen and (max-width: 768px) {
 .banner-text {
