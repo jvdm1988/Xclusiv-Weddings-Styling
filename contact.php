@@ -81,38 +81,43 @@
 
 <body>
 
-  <!-- Header Section -->
-    <section class="tophead" role="tophead">
-      <!-- Navigation Section -->
-      <header id="header">
-        <div class="header-content clearfix"> <a class="logo" href="index.html">
-          <img src="images/x.goud.jpg">
-        </a>
-          <nav class="navigation" role="navigation">
-            <ul class="primary-nav">
-              <li>
-                <div class="dropdown">
-                  <a href="diensten.html">
-                    <button class="dropbtn">DIENSTEN <span class="caret"></span></button>
-                  </a>
-                  <div class="dropdown-content">
-                    <a href="weddingplanner.html">Weddingplanner</a>
-                    <a href="trouwadvies.html">Trouwadvies</a>
-                    <a href="styling.html">Styling</a>
+	<!-- Header Section -->
+  <section class="tophead" role="tophead">
+    <!-- Navigation Section -->
+    <header id="header">
+      <div class="header-content clearfix"> <a class="logo" href="index.html">
+      <img src="images/x.goud.jpg">
+    </a>
+        <nav class="navigation" role="navigation">
+          <ul class="primary-nav">
+            <li>
+              <div class="dropdown">
+                <a href="diensten.html">
+                <button class="dropbtn">DIENSTEN <span class="caret"></span></button>
+              </a>
+                <div class="dropdown-content">
+                  <a href="weddingplanning.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Weddingplanning</a>
+                  <div class="sub-dropdown">
+                    <a href="Ceremoniemeesterschap.html">Ceremoniemeesterschap</a>
+                    <a href="meerdaags.html">Meerdaags huwelijk</a>
+                    <a href="buitenland.html">Trouwen in het buitenland</a>
                   </div>
+                  <a href="weddingconsult.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Wedding consult</a>
+                  <a href="weddingstyling.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Wedding styling</a>
                 </div>
-              </li>
-              <li><a href="#testimonials">Xclusiv</a></li>
-              <li><a href="#portfolio">Impressie</a></li>
-              <li><a href="trouwblog.html">Trouwblog</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="index.html">Home</a></li>
-            </ul>
-          </nav>
-          <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-      </header>
-  <!-- Navigation Section -->
-      </section>
+              </div>
+            </li>
+            <li><a href="xclusiv.html">Over Xclusiv</a></li>
+            <li><a href="">Impressie?</a></li>
+            <li><a href="trouwblog.html">Trouwblog</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+    </header>
+    <!-- Navigation Section -->
+  </section>
   <!-- Header Section -->
 
 	<section class="section" id="banner-section">
