@@ -42,8 +42,42 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-/* ---------- DIENSTEN ----------*/
+/* ---------- DIENSTEN LAYOUT----------*/
+.diensten-layout h5,
+.wedding-styling-content h5 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
 
+.diensten-layout p,
+.wedding-styling-content p {
+	margin-top: 5px;
+}
+
+.diensten-layout ul,
+.wedding-styling-content ul {
+	margin-bottom: 30px;
+}
+
+.diensten-layout ul:first-of-type li,
+.wedding-styling-content ul li {
+	list-style: square;
+	margin-bottom: 5px;
+	margin-left: 30px;
+}
+
+.diensten-layout ul:last-of-type li {
+	border-left: 10px solid #ddcab6;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.diensten-layout .margin-bottom {
+	margin-bottom: 30px;
+}
 
 /* ----------- CONTACT -----------*/
 #contact-title h1 {
